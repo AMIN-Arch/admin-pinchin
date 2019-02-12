@@ -10,11 +10,15 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "register-service-worker": "^1.5.2",
-    "vue": "^2.5.22",
+    "@types/greensock": "^1.15.32",
+    "axios": "^0.18.0",
+    "register-service-worker": "^1.6.1",
+    "vue": "^2.6.6",
+    "vue-axios": "^2.1.4",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
     "vue-router": "^3.0.1",
+    "vuejs-storage": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -32,7 +36,7 @@
     "sass-loader": "^7.1.0",
     "ts-jest": "^23.0.0",
     "typescript": "^3.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.6"
   },
   "postcss": {
     "plugins": {
